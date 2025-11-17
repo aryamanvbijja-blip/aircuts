@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirCuts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>AirCuts</h1>
+        <p>We do all haircuts, premium and sharp.</p>
+        <div class="reviews">
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+    </header>
+
+    <!-- RSVP Form -->
+    <section class="rsvp">
+        <h2>Book Your Haircut</h2>
+        <form id="rsvpForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="haircut">Haircut Type</label>
+            <textarea id="haircut" name="haircut" rows="3" placeholder="Type your desired haircut here..." required></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+        <p id="confirmation"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
